@@ -1,0 +1,355 @@
+/* HEADER */
+#logo{
+    background-color: #0A91AB;
+}
+img {
+    display: block;
+    margin-left: 30%;
+    padding: 2%;
+    width: 20%;
+  }
+#topnav{
+    background-color: #FFC045;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+}
+
+#link{
+    padding: 1%;
+    margin: 1% ;
+}
+#link:hover{
+    color: #0A91AB;
+}
+/* SECTION */
+#title{
+    color: #0A91AB;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-weight: bold;
+    padding-top: 1%;
+    margin: 20px;
+}
+/* CONTENEDOR VIDEOJUEGOS*/
+#videojuegos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#contenedor {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 420px;
+    border-style: dotted;
+    border-color: #FFC045;
+    border-radius: 2%;
+    display: flex;
+}
+
+.contenedor-imagen-1 {
+    flex: 1;
+    background-image: url('/images/garrysmod.jpg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.contenedor-imagen-2 {
+    flex: 1;
+    background-image: url('/images/FIFA12.jpg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.contenedor-imagen-3 {
+    flex: 1;
+    background-image: url('/images/BO3.jpg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.contenedor-imagen-4 {
+    flex: 1;
+    background-image: url('/images/fh5.jpeg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.contenedor-imagen-5 {
+    flex: 1;
+    background-image: url('/images/Minecraft.jpg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.contenedor-imagen-6 {
+    flex: 1;
+    background-image: url('/images/league-of-legends.avif');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+#contenedor-texto {
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo {
+    margin-left: 20px;
+    color: #FFC045;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#descripcion {
+    margin-left: 20px;
+    font-size: 16px;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    margin-bottom: 10px;
+}
+
+#boton-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+#boton {
+    padding: 10px 20px;
+    background-color: #FFC045;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#boton:hover{
+    color: #0A91AB;
+}
+/* NOTICIAS-TRUCOS*/
+/*
+#noticias-trucos {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* CONTENEDOR TRUCOS
+#contenedor-trucos {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 400px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 2%;
+    background-color: #dcecf4; 
+}
+*/
+#titulo-trucos {
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    text-align: center;
+    color: #0A91AB;
+    font-size: 24px; 
+}
+#titulo-juegos {
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    text-align: center;
+    color: #FFC045;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#titulo-descripcion {
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    text-align: center;
+}
+/* CONTENEDOR NOTICIAS */
+/*
+#apartado-noticia {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    align-items: center;
+    text-align: center;
+}
+#noticias {
+    align-self: start;
+    flex-grow: 100;
+    display: flex ;
+    padding: 10px;
+    color: #0A91AB;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-weight: bold;
+    padding-top: 1%;
+    margin: 20px;
+    margin-left: 25%;
+    margin-bottom: 0px; 
+}
+#abajo {
+    display: flex;
+    align-self: flex-end;
+}
+#contenedor-noticias {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 550px;
+    border-style:groove;
+    border-color: #0A91AB;
+    border-radius: 2%;
+}
+*/
+
+#contenedor-fecha {
+    margin: 5px;
+    border-style:solid;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: #FFC045;
+    border-radius: 0px;
+    text-align: left;
+}
+#titulo-noticias{
+    margin-left: 20px;
+    color: #FFC045;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#descripcion-noticias {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left;
+}
+/* FOOTER */
+footer{
+    margin-top: 20px;
+    background-color: #8A8070;
+    color: black;
+}
+
+#primera-linia{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#links-RRSS{
+    word-spacing: 12px;
+}
+
+#segunda-linia{
+    margin-right: 50px;
+    text-align: right;
+}
+
+#tercera-linia{
+    text-align: center;
+}
+/*-----------------------------------------------------------*/
+/* NOTICIAS-TRUCOS*/
+#noticias-trucos { 
+    display: flex;
+    flex-wrap: wrap;
+}
+/* CONTENEDOR TRUCOS*/
+#contenedor-trucos {
+    height: 1200px;
+    width: 400px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 2%;
+    background-color: #dcecf4; 
+
+}
+/* CONTENEDOR NOTICIAS */
+#apartado-noticia {
+ 
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#noticias {
+    padding: 10px;
+    color: #0A91AB;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-weight: bold;
+    padding-top: 1%;
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size:x-large;
+}
+#abajo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#contenedor-noticias {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 600px;
+    border-style:groove;
+    border-color: #0A91AB;
+    border-radius: 2%;
+}
+/* RANKING */
+#ranking {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#titulo-ranking {
+    padding: 10px;
+    color: #0A91AB;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-weight: bold;
+    padding-top: 1%;
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size:x-large;
+}
+#user {
+    display: flex;
+    flex-direction: column;
+}
+#imagen-ranking{
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    margin-left: 40px;
+}
+#nombre {
+    color: #FFC045;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#puntuacion {
+    font-size: smaller;
+}
+
