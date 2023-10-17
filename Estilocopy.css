@@ -1,10 +1,13 @@
+body {
+    margin: 0;
+}
 /* HEADER */
 #logo{
     background-color: #0A91AB;
 }
 img {
     display: block;
-    margin-left: 30%;
+    margin-left: 37%;
     padding: 2%;
     width: 20%;
   }
@@ -15,6 +18,7 @@ img {
     flex-direction: row;
     padding: 0;
     font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    font-weight: bold;
 }
 
 #link{
@@ -39,11 +43,11 @@ img {
     flex-wrap: wrap;
 }
 #contenedor {
-    margin: 40px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
-    height: 350px;
-    width: 420px;
+    height: 450px;
+    width: 550px;
     border-style: dotted;
     border-color: #FFC045;
     border-radius: 2%;
@@ -52,7 +56,7 @@ img {
 
 .contenedor-imagen-1 {
     flex: 1;
-    background-image: url('/images/garrysmod.jpg');
+    background-image: url('/images/2k.png');
     background-size:cover;
     background-position: center;
     border-top-right-radius: 2%;
@@ -60,7 +64,7 @@ img {
 }
 .contenedor-imagen-2 {
     flex: 1;
-    background-image: url('/images/FIFA12.jpg');
+    background-image: url('/images/fifa.jpg');
     background-size:cover;
     background-position: center;
     border-top-right-radius: 2%;
@@ -68,7 +72,7 @@ img {
 }
 .contenedor-imagen-3 {
     flex: 1;
-    background-image: url('/images/BO3.jpg');
+    background-image: url('/images/bo3.jpg');
     background-size:cover;
     background-position: center;
     border-top-right-radius: 2%;
@@ -76,11 +80,12 @@ img {
 }
 .contenedor-imagen-4 {
     flex: 1;
-    background-image: url('/images/fh5.jpeg');
+    background-image: url('/images/fh5.jpg');
     background-size:cover;
     background-position: center;
     border-top-right-radius: 2%;
     border-top-left-radius: 2%;
+
 }
 .contenedor-imagen-5 {
     flex: 1;
@@ -92,7 +97,7 @@ img {
 }
 .contenedor-imagen-6 {
     flex: 1;
-    background-image: url('/images/league-of-legends.avif');
+    background-image: url('/images/madden.jpg');
     background-size:cover;
     background-position: center;
     border-top-right-radius: 2%;
@@ -110,6 +115,7 @@ img {
 
 #titulo {
     margin-left: 20px;
+    margin-top: 10px;
     color: #FFC045;
     font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
     font-size: 24px;
@@ -276,7 +282,8 @@ footer{
     border-style: dotted;
     border-color: black;
     border-radius: 2%;
-    background-color: #dcecf4; 
+    background-color: #dcecf4;
+    margin-left: 5px;
 
 }
 /* CONTENEDOR NOTICIAS */
@@ -302,6 +309,40 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+#imagen-noticia-1 {
+    flex: 1;
+    background-image: url('/images/mandoxbox.jpg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+#imagen-noticia-2 {
+    flex: 1;
+    background-image: url('/images/Kojima.jpeg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+#imagen-noticia-3 {
+    flex: 1;
+    background-image: url('/images/LosSims4.jpeg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+#imagen-noticia-4 {
+    flex: 1;
+    background-image: url('/images/fallout.jpg');
+    background-size:cover;
+    background-position: center;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
 }
 #contenedor-noticias {
     margin: 40px;
@@ -352,4 +393,3 @@ footer{
 #puntuacion {
     font-size: smaller;
 }
-
