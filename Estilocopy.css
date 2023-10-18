@@ -7,11 +7,14 @@ body {
 }
 img {
     display: block;
-    margin-left: 37%;
-    padding: 2%;
-    width: 20%;
+    margin-left: 46%;
+    padding: 1%;
+    width: 90px;
+    height: 90px;
   }
 #topnav{
+    position: sticky;
+    top:0;
     background-color: #FFC045;
     display: flex;
     justify-content: center;
@@ -375,20 +378,27 @@ footer{
 #user {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 #imagen-ranking{
     flex: 1;
-    background-size: cover;
-    background-position: center;
-    border-top-right-radius: 2%;
-    border-top-left-radius: 2%;
+    border-radius: 7px;
     margin-left: 40px;
+}
+#imagen-ranking1 {
+    flex: 1;
+    border-radius: 50px;
+    height: 61px;
+    width: 59px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 #nombre {
     color: #FFC045;
     font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
     font-weight: bold;
     margin-bottom: 5px;
+    text-align: center;
 }
 #puntuacion {
     font-size: smaller;
