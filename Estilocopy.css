@@ -41,6 +41,7 @@ body {
     color: #0A91AB;
     font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
     font-weight: bold;
+    font-size: 24px;
     padding-top: 1%;
     margin: 20px;
 }
@@ -254,8 +255,8 @@ body {
 }
 /* FOOTER */
 footer{
-    margin-top: 20px;
-    background-color: #0A90AB25;
+    margin-top: 0px;
+    background-color: #8A8070;
     color: black;
 }
 
@@ -386,11 +387,7 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
-#imagen-ranking{
-    flex: 1;
-    border-radius: 7px;
-    margin-left: 40px;
-}
+
 #imagen-ranking1 {
     flex: 1;
     border-radius: 50px;
@@ -412,12 +409,86 @@ footer{
 
 
 /*LISTADO VIDEOJUEGOS*/
-#section-color {
-    background-color: #0A91AB;
-}
+
 #main-article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#impar {
+    background-color: white;
+    border-style:solid;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: #FFC045;
+    border-width: 1px;
+    text-align: left;
+    padding: 10px;
+}
+
+#par {
+    background-color: #0A90AB25;
+    border-style:solid;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    border-color: #FFC045;
+    border-width: 1px;
+    text-align: left;
+    padding: 10px;
+}
+
+#linias-listado {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+}
+#fecha {
+
+}
+#titulo-videojuego {
+    text-align: center;
+    margin-left: 153px;
+    color: #0A91AB;
+    font-weight: bold;
+}
+
+#plataforma {
+    text-align: center;
+    margin-left: 50px;
+    color: #8A8070;
+    font-weight: bold;
+}
+#imagen-listado {
+    width: 200px;
+    height: 100px;
+}
+
+#descripcion {
+    margin-left: 20px;
+    font-size: 16px;
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    margin-bottom: 10px;
+    width: 80%;
+}
+#boton-contenedor2 {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+    height: 50%;
+}
+#boton2 {
+    padding: 10px 10px;
+    padding-bottom: 10%;
     background-color: #FFC045;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#boton2:hover{
+    color: #0A91AB;
+}
+#genero {
+    font-family:'Kanit', 'Maven Pro', 'Helvetica', 'Arial';
+    margin-left: 220px;
 }
